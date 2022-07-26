@@ -93,3 +93,36 @@ Algoritmo matrices
    Fin Para
    Escribir "El resultado de la suma de todos los elementos de la matriz es :",suma;
 FinAlgoritmo
+
+Algoritmo notaPromedioMaximaMinima
+	//Definir variables 
+	Definir nota Como Real
+	Definir numeroAlumnos Como entero
+	//Inicilizar variables 
+	minimo=10
+	maximo=-10
+	acum=0
+	//Ingresa datos por el usuario el numero de alumnos a ingresar
+	Escribir "Ingrese el numero de estudiantes a registrar notas" 
+	leer numeroAlumnos
+	//calculamos valores con ciclos y condiciones 
+	Para i<-1 Hasta numeroAlumnos Con Paso 1 Hacer
+		Para j<-1 Hasta 5 Con Paso 1 Hacer
+			Escribir "Ingrese la nota para el estudiante " i , " y nota No " j
+			leer nota
+			acum=acum+nota
+			//sacar las notas minimas y maximos 
+			si nota>maximo Entonces
+				maximo=nota
+			SiNo
+				si nota<minimo Entonces
+					minimo=nota
+				FinSi
+			FinSi
+		Fin Para
+	Fin Para
+	//Sacar el promedio de notas 
+	Imprimir "Promedio de notas estudiantes " acum/numeroAlumnos
+	Imprimir "La nota maxima es " maximo
+	Imprimir "La nota Minimo es " minimo
+FinAlgoritmo
