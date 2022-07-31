@@ -94,3 +94,19 @@ Algoritmo matrices
    Escribir "El resultado de la suma de todos los elementos de la matriz es :",suma;
 FinAlgoritmo
 
+//Definir variables ``
+let dia, costo, km, costoKm, precioTiquete;
+
+//Ingrese datos usuarios
+km = parseFloat(prompt(`Ingrese los km a recorre ${km}`));
+dia = parseFloat(prompt(`ingrese los dias de instancia ${dia}`));
+
+//Calcular datos para usuario
+costoKm = km * 2.5;
+if (dia >= 7 && dia < 800) {
+  precioTiquete = (costoKm * 30) / 100;
+} else {
+  confirm(`No hay descuento para el viaje. En el siguiente viaje!!!`);
+}
+//Imprimir datos
+confirm(`El costo de recorrido para ${km} km es de Usd ${costoKm}`);
