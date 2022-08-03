@@ -154,5 +154,6 @@ Algoritmo cuatroArticulosDescuento_05
 	
 	//Impresion de datos 
 
+
 	
 FinAlgoritmo
