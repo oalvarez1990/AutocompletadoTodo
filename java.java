@@ -79,28 +79,7 @@ public class fiestamatrimonio_12 {
 
 }
 
-Algoritmo matrices
-  Definir i,j como Entero
-  Definir M,n,suma Como Real
-  Dimension M[4,3];
-  Para i<-1 Hasta 4 Con Paso 1 Hacer
-      Para j<-1 Hasta 3 Con Paso 1 Hacer
-        Escribir Sin Saltar"Ingresa el dato de la posición [", i,",",j,"]";
-        Leer n;
-        M[i,j]<-n;
-        suma<-suma+M[i,j];
-     Fin Para
-   Fin Para
-   Escribir "El resultado de la suma de todos los elementos de la matriz es :",suma;
-FinAlgoritmo
 
-Algoritmo cuatroArticulosDescuento_05
-	//Defini variable
-	Definir nombreArticulo1,nombreArticulo2,nombreArticulo3,nombreArticulo4 Como Caracter
-	Definir precioOriginal1,precioOriginal2,precioOriginal3,precioOriginal4 Como Entero
-	//Inicializar contadores y acumuladores 
-	
-	
 	// Ingresar datos usuarios 
 	
 	
