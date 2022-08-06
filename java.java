@@ -74,6 +74,7 @@ public class fiestamatrimonio_12 {
 		System.out.println("");
 		System.out.println("Ingresos datos menor a cero         "+cuentanegativos);
 		System.out.println("Ingreso datos mayor igual a 4       "+sumamayoresacuatro);
+		
 	}
 
 
