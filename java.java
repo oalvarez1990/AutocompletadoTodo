@@ -78,7 +78,24 @@ public class fiestamatrimonio_12 {
 	}
 
 
+
 }
+	Definir n,num, a,b Como Entero
+	
+	Escribir "Ingrese cantidad de numeros"
+	leer n
+	
+	Dimension num[n]
+	Dimension c[n]
+	
+	para b<-0 Hasta n-1 Hacer
+		Escribir "Ingrese base b"
+		leer num[b]
+		c[b]= num[b]*num[b]
+		
+	FinPara
+	
+	Imprimir "El valor elavado es" c[b]
 
 
 	// Ingresar datos usuarios 
