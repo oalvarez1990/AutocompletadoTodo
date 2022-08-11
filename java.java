@@ -99,5 +99,21 @@ public class fiestamatrimonio_12 {
 
 
 	// Ingresar datos usuarios 
+	Funcion resultado <- Potencia (base, exponente)
+    Si exponente=0 Entonces
+        resultado <- 1;
+    sino 
+        resultado <- base*Potencia(base,exponente-1); 
+    FinSi
+FinFuncion
+
+Algoritmo DosALaDiezRecursivo
+    Escribir "Ingrese Base"
+    Leer base
+    Escribir "Ingrese Exponente"
+    Leer exponente
+    Escribir "El resultado es ",Potencia(base,exponente)
+FinAlgoritmo
+
 	
 	
