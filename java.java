@@ -116,4 +116,25 @@ Algoritmo DosALaDiezRecursivo
 FinAlgoritmo
 
 	
+	Algoritmo matrizNumericaTresxTres03
+	//Definir variables iniciales 
+	Definir fil, col, num Como Entero
+	///Ingresar datos para la matriz
+	Escribir "Ingrese los datos para matriz de 3x3"
+	///Definir el arreglo de la matriz
+	Dimension num[3,3]
+	Para fil<-0 Hasta 3-1 Con Paso 1 Hacer
+		Para col<-0 Hasta 3-1 Con Paso 1 Hacer
+			Escribir "Ingrese los numeros para la fila " " " fil " " col
+			leer num[fil,col]
+		Fin Para 
+	Fin Para
 	
+	Para fil<-0 Hasta 3-1 Con Paso 1 Hacer
+		Para col<-0 Hasta 3-1 Con Paso 1 Hacer
+			Imprimir Sin Saltar num[fil,col], " "
+		Fin Para
+		Escribir " "
+	Fin Para
+FinAlgoritmo
+ 
